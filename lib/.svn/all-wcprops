@@ -1,0 +1,401 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib
+END
+hsqldb-1.7.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/hsqldb-1.7.1.jar
+END
+jta.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/jta.jar
+END
+jakarta-bcel-20050813.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/jakarta-bcel-20050813.jar
+END
+flexdock-0.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/flexdock-0.4.1.jar
+END
+commons-collections-2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/commons-collections-2.1.jar
+END
+jr-bsh-compiler.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/jr-bsh-compiler.jar
+END
+jpa.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/jpa.jar
+END
+commons-dbcp-1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/commons-dbcp-1.2.1.jar
+END
+javacup.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/javacup.jar
+END
+ireport.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/ireport.jar
+END
+bsh-1.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/bsh-1.3.0.jar
+END
+antlr-2.7.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/antlr-2.7.5.jar
+END
+png-encoder-1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/png-encoder-1.5.jar
+END
+looks-2.0-rc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/looks-2.0-rc.jar
+END
+dom4j-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/dom4j-1.6.jar
+END
+c3p0-0.9.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/c3p0-0.9.1.2.jar
+END
+json-rpc-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/json-rpc-1.0.jar
+END
+toniclf.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/toniclf.jar
+END
+jfreechart-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/jfreechart-1.0.0.jar
+END
+mysql-connector-java-5.1.13-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/mysql-connector-java-5.1.13-bin.jar
+END
+asm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/asm.jar
+END
+spring-context-2.0-m2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/spring-context-2.0-m2.jar
+END
+fileupload.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/fileupload.jar
+END
+jdt-compiler-3.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/jdt-compiler-3.1.1.jar
+END
+eigenbase-resgen.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/eigenbase-resgen.jar
+END
+itext-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/itext-1.3.1.jar
+END
+eigenbase-properties.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/eigenbase-properties.jar
+END
+eigenbase-xom.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/eigenbase-xom.jar
+END
+cos.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/cos.jar
+END
+sqljdbc4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/sqljdbc4.jar
+END
+jxl-2.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/jxl-2.6.jar
+END
+ojdbc14.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/ojdbc14.jar
+END
+xml-apis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/xml-apis.jar
+END
+xalan.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/xalan.jar
+END
+tinylaf.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/tinylaf.jar
+END
+groovy-all-1.0-beta-10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/groovy-all-1.0-beta-10.jar
+END
+EXAT_Sec.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/EXAT_Sec.jar
+END
+poi-2.0-final-20040126.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/poi-2.0-final-20040126.jar
+END
+spring-2.0-m2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/spring-2.0-m2.jar
+END
+commons-javaflow-20060411.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/commons-javaflow-20060411.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/hibernate3.jar
+END
+commons-digester-1.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/commons-digester-1.7.jar
+END
+commons-logging-1.0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/commons-logging-1.0.2.jar
+END
+ehcache-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/ehcache-1.1.jar
+END
+mondrian-2.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/mondrian-2.0.1.jar
+END
+microba-0.4.1-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/microba-0.4.1-bin.jar
+END
+log4j-1.2.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/log4j-1.2.8.jar
+END
+jcmdline-1.0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/jcmdline-1.0.2.jar
+END
+uploadbean.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/uploadbean.jar
+END
+log4j-1.2.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/log4j-1.2.16.jar
+END
+commons-logging-api-1.0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/commons-logging-api-1.0.2.jar
+END
+mysql-connector-java-3.1.11-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/mysql-connector-java-3.1.11-bin.jar
+END
+jcommon-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/jcommon-1.0.0.jar
+END
+nsisant-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/nsisant-1.1.jar
+END
+rt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/rt.jar
+END
+barbecue-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/barbecue-1.1.jar
+END
+servlet.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/servlet.jar
+END
+commons-beanutils-1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/commons-beanutils-1.5.jar
+END
+classes12.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/classes12.jar
+END
+jsmoothgen-ant-0.9.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/jsmoothgen-ant-0.9.7.jar
+END
+cglib-2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/cglib-2.1.jar
+END
+commons-pool-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/commons-pool-1.3.jar
+END
+spring-hibernate3-2.0-m2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/spring-hibernate3-2.0-m2.jar
+END
+xercesImpl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/xercesImpl.jar
+END
+asm-attrs.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/asm-attrs.jar
+END
+jasperreports-1.2.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Helper/!svn/ver/1/build/web/WEB-INF/lib/jasperreports-1.2.8.jar
+END

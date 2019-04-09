@@ -10,6 +10,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.SocketException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import jcifs.smb.NtlmPasswordAuthentication;
 import jcifs.smb.SmbFile;
 import org.apache.commons.net.ftp.FTP;
@@ -295,9 +299,20 @@ public abstract class Helper {
 //            is.close();
 //            os.close();
 //            ftpClient.closeServer();
-            System.out.println("Upload " + fileName + " success.Use time : " + (System.currentTimeMillis() - startTime)+" ms.");
+            System.out.println("Upload " + fileName + " success.Use time : " + (System.currentTimeMillis() - startTime) + " ms.");
         } catch (Exception ex) {
             System.out.println("Helper : " + ex.getMessage());
         }
     }
+
+    public static String getYesterday() {
+        Date currentDate = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(currentDate);
+        calendar.add(Calendar.DAY_OF_YEAR, -1);
+        calendar.set(Calendar.YEAR, (Calendar.getInstance().get(Calendar.YEAR) - 543));
+        return sdf.format(calendar.getTime());
+    }
+    
 }

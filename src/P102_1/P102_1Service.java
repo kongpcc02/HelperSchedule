@@ -47,21 +47,21 @@ public class P102_1Service extends Helper {
         return plazaId;
     }
 
-    public StringBuilder readAndCreateFile(String fileName) throws IOException {
+    public void readAndCreateFile(String fileName) throws IOException {
         InputStream reader = retrieveFromFTP("import/DMS", fileName);
-        StringBuilder txt = new StringBuilder();
+//        StringBuilder txt = new StringBuilder();
         if (reader == null) {
-            txt.append("<br>===ไม่มีไฟล์ in DMS");
+            System.out.println("File not found");
             reader = retrieveFromFTP("import/DMS_FOR_TEST", fileName);
         }
         if (reader == null) {
-            txt.append("<br>--ไม่มีการส่งไฟล์--");
+            System.out.println("File not found");
         } else {
             BufferedReader br = new BufferedReader(new InputStreamReader(reader));
             String sCurrentLine;
             BufferedWriter bw = null;
             FileWriter fw = null;
-            fw = new FileWriter("D:\\pluginRVA\\P102_1\\Tmp\\" + fileName.replace(".txt", ".mnl"));
+            fw = new FileWriter("D:\\data\\becl\\pluginRVA\\P102_1\\" + fileName.replace(".txt", ".mnl"));
             bw = new BufferedWriter(fw);
 
             while ((sCurrentLine = br.readLine()) != null) {
@@ -78,10 +78,10 @@ public class P102_1Service extends Helper {
             bw.close();
             fw.close();
             reader.close();
-            uploadToFTP("D:\\pluginRVA\\P102_1\\Tmp\\", fileName.replace(".txt", ".mnl"));
+//            uploadToFTP("D:\\data\\becl\\pluginRVA\\P102_1\\", fileName.replace(".txt", ".mnl"));
         }
 
-        return txt;
+//        return txt;
     }
 
     public static void main(String[] args) throws IOException {

@@ -9,8 +9,12 @@ import java.io.FileWriter;
 import java.io.IOException;
 import Helper.Helper;
 import java.io.BufferedReader;
+import java.io.FileFilter;
 import java.io.InputStreamReader;
+import jcifs.smb.SmbException;
 import jcifs.smb.SmbFile;
+import jcifs.smb.SmbFileFilter;
+import jcifs.smb.SmbFilenameFilter;
 
 /**
  *
@@ -18,7 +22,8 @@ import jcifs.smb.SmbFile;
  */
 public class ETCRev extends Helper {
 
-    public final String localPath = "D:/pluginRVA/ETCRva/read/";
+    public final String localPath = "D:/data/becl/ETC/ETCRva/";
+//    D:\data\becl\ETC\ETCRva
     boolean returnType = true;
     private String fRMTName = "";
     private String fTRXName = "";
@@ -95,6 +100,7 @@ public class ETCRev extends Helper {
      */
     public void readAndCreateFile(String fileName) throws IOException {
         FileWriter fw = new FileWriter(this.localPath + fileName);//สร้างไฟล์ที่จะเขียนลง
+//        SmbFile smbFile = new SmbFile("smb://" + super.newBECLFilePath + "/ETCRva/" + fileName, super.authentication);
         BufferedWriter bw = new BufferedWriter(fw);
 
         /* อ่านไฟล์ */
@@ -131,5 +137,39 @@ public class ETCRev extends Helper {
         br.close();
         bw.close();
         fw.close();
+    }
+
+//    public void checkFile() {
+//        try {
+//            SmbFile file = new SmbFile("smb://" + super.newBECLFilePath + "/ETCRva/", super.authentication);
+//            SmbFile[] listFiles = file.listFiles(new SmbFilenameFilter() {
+//                @Override
+//                public boolean accept(SmbFile sf, String fileName) throws SmbException {
+////                    boolean isDate = fileName.contains("");
+//                    boolean isName = fileName.contains("ET_02_ETC");
+//                    return isName;
+//                }
+//            });
+//            String yesterday = getYesterday();
+//            String previousDay = getPreviousDate(yesterday);
+//            for (int index = 0; index < listFiles.length; index++) {
+//                if (listFiles[index].getName().contains(previousDay)) {
+//
+//                }
+////                System.out.println(listFiles[index].lastModified());
+//            }
+////            break;
+//
+//        } catch (Exception ex) {
+//            ex.printStackTrace();
+//        }
+//
+//    }
+
+    public static void main(String[] arg) {
+//        boolean b = "a".contains("aasdbdfa");
+//        System.out.println(b);
+        ETCRev a = new ETCRev();
+//        a.checkFile();
     }
 }

@@ -25,6 +25,9 @@ import java.util.List;
 
 public class P115Service extends Helper {
 
+//    private Exception FileNotFoundException;
+//    private Exception Exception;
+
     public StringBuilder importCyber(String fn) {
         StringBuilder txt = new StringBuilder();
         txt.append("<br>---import cyber start...");
@@ -83,73 +86,29 @@ public class P115Service extends Helper {
         P115Service p = new P115Service();
     }
 
-    public StringBuilder convertData(String reqDate) throws ParseException, FileNotFoundException, IOException, Exception {
-        StringBuilder strBuilder = new StringBuilder();
-        String date2Y = DateUtil.DateUtil.convertFormat(reqDate, "MM/dd/yyyy", "yyMMdd");
-        String date4Y = DateUtil.DateUtil.convertFormat(reqDate, "MM/dd/yyyy", "yyyyMMdd");
+    public boolean convertData(String reqDate) throws ParseException, FileNotFoundException, IOException, Exception {
+        String date2Y = DateUtil.DateUtil.convertFormat(reqDate, "yyyyMMdd", "yyMMdd");
+        String date4Y = reqDate;
         String fileParentsName = date2Y + ".txt";
         if (!hasParentsFileShift(fileParentsName)) {
-            strBuilder.append("<p style=\"color:red;\">ไม่พบไฟล์ " + fileParentsName + "</p>");
-            return strBuilder;
+            System.out.println("File Not Found " + fileParentsName);
+            return false;
         }
         ArrayList<String[]> arrList = readFile(fileParentsName, date4Y);
         if (arrList == null) {
-            strBuilder.append("<br>ข้อมูลผิด");
-            return strBuilder;
+            System.out.println("Data was wrong");
+            return false;
         }
         insertDataToTextBecl(arrList, "dms_text_becl", date4Y);
         selectData(date4Y, "TRF");
         selectData(date4Y, "REV");
         if (createFile("TRF", date4Y)) {
-            strBuilder.append("<br>สร้างไฟล์" + "TL_02_TRF_OPN_" + date4Y + ".mnl" + " สำเร็จ");
+            System.out.println("Create File " + "TL_02_TRF_OPN_" + date4Y + ".mnl" + " Success");
         }
         if (createFile("REV", date4Y)) {
-            strBuilder.append("<br>สร้างไฟล์ " + "TL_02_REV_OPN_" + date4Y + ".mnl" + " สำเร็จ");
+            System.out.println("Create File " + "TL_02_REV_OPN_" + date4Y + ".mnl" + " Success");
         }
-        return strBuilder;
-    }
-
-    public String checkDataExist(boolean req, String shiftDate) throws Exception {
-        Connector connector = new Connect.Connector();
-        connector.connect();
-        long startTime = System.currentTimeMillis();
-        String sql = "SELECT * FROM DMS_TEXT_BECL \n";
-        sql += "WHERE SHIFT_DATE = TO_DATE(\'" + shiftDate + "\',\'MM/dd/yyyy\')";
-        ResultSet result = connector.executeQuery(sql);
-        StringBuilder strBuilder = new StringBuilder();
-        strBuilder.append("<script type=\"text/javascript\">");
-        boolean isDataExist = false;
-        while (result.next()) {
-            strBuilder.append(" $(\"#result\").html(\"\"); \n");
-            strBuilder.append("var isUpdate = confirm(\"มีการโหลดข้อมูลวันที่นี้แล้ว ต้องการโหลดทับข้อมูลเดิมหรือไม่\"); \n");
-            strBuilder.append("if(isUpdate){"
-                    + "$('#process').attr('disabled', 'disabled');\n"
-                    + " $.post(\"/Helper/P115Controller\", {\n"
-                    + "date: $(\"#date\").val(),\n"
-                    + "update : true \n"
-                    + "}, function (res) {\n"
-                    + "$('#process').removeAttr('disabled');\n"
-                    + "$('#spinner').hide();\n"
-                    + "$(\"#result\").html(res);\n"
-                    + "});}");
-            isDataExist = true;
-            break;
-        }
-        if (!isDataExist) {
-            strBuilder.append(" $(\"#result\").html(\"\"); \n");
-            strBuilder.append(" $.post(\"/Helper/P115Controller\", {\n"
-                    + "date: $(\"#date\").val(),\n"
-                    + "update : true \n"
-                    + "}, function (res) {\n"
-                    + "$('#process').removeAttr('disabled');\n"
-                    + "$('#spinner').hide();\n"
-                    + "$(\"#result\").html(res);\n"
-                    + "}); \n");
-        }
-
-        strBuilder.append("</script>");
-        connector.close();
-        return strBuilder.toString();
+        return true;
     }
 
     private boolean createFile(String type, String date4Y) throws IOException, Exception {
